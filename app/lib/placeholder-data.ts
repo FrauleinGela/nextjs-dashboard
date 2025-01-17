@@ -129,6 +129,26 @@ const invoices = [
   },
 ];
 
+const newInvoices = [
+  {
+    customer_id: customers[0].id,
+    amount: 1000,
+    status: 'pending',
+    date: '2022-12-06',
+  },
+  {
+    customer_id: customers[1].id,
+    amount: 1000,
+    status: 'pending',
+    date: '2022-11-14',
+  },
+  {
+    customer_id: customers[4].id,
+    amount: 1000,
+    status: 'pending',
+    date: '2022-10-29',
+  },
+]
 const revenue = [
   { month: 'Jan', revenue: 2000 },
   { month: 'Feb', revenue: 1800 },
@@ -144,4 +164,4 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+export { users, customers, invoices, revenue, newInvoices };
